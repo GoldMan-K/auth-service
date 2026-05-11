@@ -18,6 +18,7 @@ import org.springframework.stereotype.Component;
  * 회원가입 완료 이벤트 수신.
  * auth_credential은 회원가입 API(/api/members/signup)에서 직접 생성하므로
  * 여기서는 중복 생성 방지를 위한 검증 로그만 남긴다.
+ * Test-1
  *
  * 만약 Auth Service가 독립적으로 credential을 생성하는 구조로 변경될 경우
  * 이 Consumer에서 AuthCredential을 직접 생성하도록 확장한다.
